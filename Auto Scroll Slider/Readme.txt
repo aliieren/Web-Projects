@@ -1,0 +1,1 @@
+Bu kod ile istediğiniz görselleri otomatik olaraka sağdan sola kaydırma işlemi yaptırabilirsiniz. Sizin kaydırmanıza gerek yok. Siteye girildiğinde durmaksızın sabit bir hızda otomatik olarak sağdan sola olacak şekilde kayıyor ve site müşterileri için cazib bir görünüme sahiptir.

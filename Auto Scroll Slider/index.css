@@ -1,0 +1,52 @@
+body {
+    background-color: #141414;
+    font-family: 'Bai Jamjuree', sans-serif;
+    height: auto;
+    width: 100%;
+}
+
+/***** marquee *****/
+
+.marquee {
+    display: flex;
+    overflow: hidden;
+    gap: 1rem;
+    user-select: none;
+    position: relative;  
+}
+
+.marquee-content {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    min-width: 100%;
+}
+
+
+.marquee-content img {
+  margin-bottom: 10px;
+  width: 100px;
+  border-radius: 10px;
+  
+}
+
+
+@keyframes scroll {
+    form {
+        transform: transLateX(0);
+    }
+    to {
+        transform: transLateX(calc(-100% - 1rem));
+    }
+}
+
+.scroll {
+    animation: scroll 10s linear infinite;
+}
+
+@media (min-width: 700px) {
+.marquee-content img {
+  width: 180px;
+}
+}
